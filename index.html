@@ -182,10 +182,14 @@
         display: flex;
         justify-content: flex-end;
       }
+      #random-button {
+        margin-right: 5px;
+      }
     </style>
   </head>
   <body>
     <div id="custom-nav">
+      <button id="random-button" onclick="wordleAnyday.pickRandomDate()">Random</button>
       <input type="date" id="game-date" name="game-date" onchange="wordleAnyday.changeDate()">
     </div>
     <script>
