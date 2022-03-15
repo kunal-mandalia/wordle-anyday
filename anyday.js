@@ -52,7 +52,6 @@ wordleAnyday.pickRandomDate = function () {
 }
 
 wordleAnyday.afterward = function () {
-  console.log('wordleAnyday.attempts += 1')
   // run after next tick (or after js files are loaded)
   window.setTimeout(afterLoad, 10)
   function afterLoad() {
